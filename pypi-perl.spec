@@ -14,13 +14,13 @@ Requires: pypi-perl-license = %{version}-%{release}
 Requires: pypi-perl-python = %{version}-%{release}
 Requires: pypi-perl-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
+BuildRequires : pypi(pluggy)
 BuildRequires : py-python
 BuildRequires : pypi(pytest_runner)
 BuildRequires : pypi(six)
 BuildRequires : pytest
 BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi(virtualenv)
 
 %description
 Perl as a Python package

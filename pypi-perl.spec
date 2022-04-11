@@ -4,7 +4,7 @@
 #
 Name     : pypi-perl
 Version  : 1.0.0
-Release  : 3
+Release  : 4
 URL      : https://files.pythonhosted.org/packages/cb/2f/d2724ee752dc50c6eb4273ab5c486ce43737866072f15bd089e449003fd2/perl-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cb/2f/d2724ee752dc50c6eb4273ab5c486ce43737866072f15bd089e449003fd2/perl-1.0.0.tar.gz
 Summary  : Perl as a Python package
@@ -14,13 +14,13 @@ Requires: pypi-perl-license = %{version}-%{release}
 Requires: pypi-perl-python = %{version}-%{release}
 Requires: pypi-perl-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
+BuildRequires : pypi(py)
 BuildRequires : pypi(pytest_runner)
 BuildRequires : pypi(six)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 Perl as a Python package
@@ -63,7 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1639061292
+export SOURCE_DATE_EPOCH=1649698150
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

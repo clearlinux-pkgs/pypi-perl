@@ -4,7 +4,7 @@
 #
 Name     : pypi-perl
 Version  : 1.0.0
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/cb/2f/d2724ee752dc50c6eb4273ab5c486ce43737866072f15bd089e449003fd2/perl-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/cb/2f/d2724ee752dc50c6eb4273ab5c486ce43737866072f15bd089e449003fd2/perl-1.0.0.tar.gz
 Summary  : Perl as a Python package
@@ -66,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656388738
+export SOURCE_DATE_EPOCH=1656393915
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
